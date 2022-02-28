@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
         '-' -> result = first - second
         '*' -> result = first * second
         '/' -> result = first / second
-        '(' -> result = first / second
+        ')' -> result = first / second
         // operator doesn't match any case constant (+, -, *, /)
         else -> {
             System.out.printf("Error! operator is not correct")
